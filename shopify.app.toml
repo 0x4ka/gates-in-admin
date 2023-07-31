@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "gates-in-admin"
+client_id = "dbb53102ec5723df23aa825529f9f3c8"
+application_url = "https://compatible-causes-nominated-phenomenon.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products,read_gates,write_gates,read_discounts,write_discounts"
+
+[auth]
+redirect_urls = [
+  "https://compatible-causes-nominated-phenomenon.trycloudflare.com/auth/callback",
+  "https://compatible-causes-nominated-phenomenon.trycloudflare.com/auth/shopify/callback",
+  "https://compatible-causes-nominated-phenomenon.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-dd0db5bd.myshopify.com"
