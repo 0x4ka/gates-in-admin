@@ -2,7 +2,7 @@
 
 name = "gates-in-admin"
 client_id = "dbb53102ec5723df23aa825529f9f3c8"
-application_url = "https://compatible-causes-nominated-phenomenon.trycloudflare.com"
+application_url = "https://miracle-fancy-catalogue-reflect.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products,read_gates,write_gates,read_discounts,write_discounts"
 
 [auth]
 redirect_urls = [
-  "https://compatible-causes-nominated-phenomenon.trycloudflare.com/auth/callback",
-  "https://compatible-causes-nominated-phenomenon.trycloudflare.com/auth/shopify/callback",
-  "https://compatible-causes-nominated-phenomenon.trycloudflare.com/api/auth/callback"
+  "https://miracle-fancy-catalogue-reflect.trycloudflare.com/auth/callback",
+  "https://miracle-fancy-catalogue-reflect.trycloudflare.com/auth/shopify/callback",
+  "https://miracle-fancy-catalogue-reflect.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
